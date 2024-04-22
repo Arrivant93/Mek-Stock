@@ -1,0 +1,63 @@
+<div
+  id="carouselExampleSlidesOnly"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        height="750px"
+        src="assets/img/slide.png"
+        class="d-block w-100"
+        alt="Frist slide"
+      />
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="..." />
+    </div>
+  </div>
+</div>
+<h1 class="mt-5" style="padding-left: 30px">Notre vision</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-5">
+      <img height="350px" src="assets/img/coach.png" alt="" />
+    </div>
+    <div class="col-7">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+        incidunt alias accusamus nam unde, totam veniam odit quos sit ipsam
+        explicabo ex quia nobis esse. Animi vel quae repudiandae tempora?
+      </p>
+    </div>
+  </div>
+</div>
+
+<h1 style="padding-left: 30px; margin-top: 30px">Nos Valeurs</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+      <app-card 
+      [ImageSrc]="'assets/img/team.png'" 
+      [title]="'team'"
+      ></app-card>
+    </div>
+    <div class="col-3">
+      <app-card
+        [ImageSrc]="'assets/img/objectif.jpg'"
+        [title]="'objectif'"
+      ></app-card>
+    </div>
+    <div class="col-3">
+      <app-card
+        [ImageSrc]="'assets/img/engagement.png'"
+        [title]="'engagement'"
+      ></app-card>
+    </div>
+  </div>
+</div>

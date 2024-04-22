@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6 mt-5">
+      <div class="card" style="width: 30rem">
+        <img
+          class="card-img-top"
+          src="assets/img/zoroProfil.jpg"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h1 class="card-title">Roronoa Zoro</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6" style="margin-top: 15%">
+      <div class="list-group">
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">#</h5>
+            <p class="mb-1">1</p>
+          </div>
+        </div>
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Age</h5>
+             <p class="mb-1" *ngIf="age ==22">{{ age }}</p>   <!--Faire une condition *ngIf="age ==22 -->
+          </div>
+        </div>
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Taille</h5>
+            <p class="mb-1">{{ taille }}</p>
+          </div>
+        </div>
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Poids</h5>
+            <p class="mb-1">{{ poids }}</p>
+          </div>
+        </div>
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Spécialité</h5>
+            <p class="mb-1">{{ specialite }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
