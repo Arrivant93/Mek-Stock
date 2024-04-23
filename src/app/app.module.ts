@@ -7,6 +7,11 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { CardComponent } from './commun/card/card.component';
 import { ProfilComponent } from './profil/profil.component';
 import { SportifComponent } from './sportif/sportif.component';
+import { SportifDetailComponent } from './sportif-detail/sportif-detail.component';
+import { ApiComponent } from './api/api.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { CreerComponent } from './creer/creer.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,16 @@ import { SportifComponent } from './sportif/sportif.component';
     AccueilComponent,
     CardComponent,
     ProfilComponent,
-    SportifComponent
+    SportifComponent,
+    SportifDetailComponent,
+    ApiComponent,
+    CreerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

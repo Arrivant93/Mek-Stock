@@ -3,5 +3,6 @@ export interface Sportif {
     nom : string,
     prenom : string,
     age : number,
+    image : string
 
 }
